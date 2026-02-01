@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+.wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    margin-top: -20px;
+   
+}
+.score{
+    color: azure;
+    font-family: "Micro 5", sans-serif;
+    font-size: 50px;
+}
+.score-wrapper{
+    display: flex;
+    gap: 15px;
+    margin-left: 30%;
+    
+}
+
+#level{
+    justify-content: end;
+}
+.grid{
+  
+    border-radius: 30px;
+    
+}
+.grid-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.top-wrapper{
+    display: flex;
+    gap: 10%;
+}
+
+.presiona{
+    position: absolute;
+    margin-top: 18%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;;
+    font-family: "Micro 5", sans-serif;
+    font-size: 60px;
+
+}
+
+.gameovers{
+    position: absolute;
+    margin-top: 10%;
+    color: rgb(255, 170, 0);
+    text-shadow: 2px 2px 4px #000000;;
+    font-family: "Micro 5", sans-serif;
+    font-size: 200px;
+
+}
+#bat{
+    size: 200px;
+    justify-content: center;
+    font-size: 49px;
+    width: 400px;
+    position: absolute;
+    margin-top: 30%;
+    font-family: "Micro 5", sans-serif;
+    
+}
+.body-juego{
+    margin-top: 19px;
+}

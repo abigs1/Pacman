@@ -1,0 +1,87 @@
+.body-home{
+    margin-top: 3vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-wrapper{
+ display: flex;
+ justify-content: center;
+}
+.container-icons{
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    width: max-content;
+    align-items: end;
+   
+}
+
+.fer{
+    position: relative;
+    width: 100px;
+    height: 225px;
+    
+}
+
+
+#abierto, #cerrado{
+    height: 220px; /*tamaño de los fers*/
+    transform: scaleX(-1);
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
+.abis{
+    display: flex;
+    justify-content: center; 
+    gap: 5px;
+    width: 615px;  /*largo del contenedor de abi: lo de 4 abis con gap de 5px*/
+    
+    
+}
+
+.abis img{
+    height: 100px;
+}
+
+
+.titulo{
+    font-family: "Micro 5", sans-serif;
+    color:rgb(255, 221, 0);
+    font-size: 300px;
+    margin-top: -100px;
+    margin-bottom: -120px;
+   
+}
+.icono{
+    margin-right: 60%;
+  
+    height: 40px;
+    position: absolute;
+}
+.edicion{
+   font-family: "Micro 5", sans-serif;
+    color:rgb(241, 241, 238);
+    font-size: 115px;
+
+    margin-bottom: 0;
+   
+}
+
+#but{
+    size: 200px;
+    margin-bottom: 0;
+    margin-top: 35px;
+    padding: 10px;
+    font-size: 49px;
+    width: 400px;
+    justify-content: center;
+    font-family: "Micro 5", sans-serif;
+    
+}
+
